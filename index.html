@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>可爱俄罗斯方块</title>
+    <title>Pixel Jumper</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="game-container">
-        <canvas id="tetris" width="240" height="400"></canvas>
-        <div class="side-panel">
-            <h2>得分: <span id="score">0</span></h2>
-            <canvas id="next" width="80" height="80"></canvas>
-            <p>下一个方块</p>
-            <button id="start-btn">开始游戏</button>
+        <div id="start-screen">
+            <h1>Pixel Jumper</h1>
+            <p>Click the center to start your adventure!</p>
+            <div class="start-circle"></div>
+        </div>
+        <canvas id="game"></canvas>
+        <div class="hud">
+            <span>Score: <span id="score">0</span></span>
+            <span>Coins: <span id="coins">0</span></span>
         </div>
     </div>
     <script src="script.js"></script>
