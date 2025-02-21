@@ -1,0 +1,64 @@
+body {
+    background-color: #ffe6f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.game-container {
+    display: flex;
+    gap: 20px;
+    background-color: #fff0f5;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
+}
+
+#tetris {
+    border: 4px solid #ff69b4;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.side-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#next {
+    border: 2px dashed #ffb6c1;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+h2 {
+    color: #ff69b4;
+    margin: 0;
+    font-size: 24px;
+}
+
+p {
+    color: #ff1493;
+    margin: 5px 0;
+}
+
+#start-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#start-btn:hover {
+    transform: scale(1.1);
+    background-color: #ff1493;
+}
